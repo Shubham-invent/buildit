@@ -1,0 +1,10 @@
+.search-bar {
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+
+.tbl-header {
+    color: cornflowerblue;
+    background-color: aliceblue;
+}
