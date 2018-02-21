@@ -10,7 +10,7 @@ export function setWeather(data) {
 export function getWeather(city) {
   return dispatch => {
     return fetch(
-      "http://api.openweathermap.org/data/2.5/forecast?q=" +
+      "https://api.openweathermap.org/data/2.5/forecast?q=" +
         city +
         "&appid=df39ee06a53346c17477942ada693c4d"
     )
